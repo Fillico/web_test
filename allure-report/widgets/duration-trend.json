@@ -1,0 +1,8 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 497589144
+  }
+} ]

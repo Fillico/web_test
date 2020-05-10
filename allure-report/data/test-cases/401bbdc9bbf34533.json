@@ -1,0 +1,150 @@
+{
+  "uid" : "401bbdc9bbf34533",
+  "name" : "test_login_1_failed_by_fail_datas[data0]",
+  "fullName" : "TestCases.test_login_pytest.TestLoginP#test_login_1_failed_by_fail_datas[data0]",
+  "historyId" : "d1021337b075fdb88fea8a1fac58ed32",
+  "time" : {
+    "start" : 1561894596132,
+    "stop" : 1561894597496,
+    "duration" : 1364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1561894263990,
+      "stop" : 1561894263990,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1561894574604,
+      "stop" : 1561894587370,
+      "duration" : 12766
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1561894596130,
+      "stop" : 1561894596130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1561894647751,
+      "stop" : 1561894647752,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1561894645129,
+      "stop" : 1561894647722,
+      "duration" : 2593
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1561894597500,
+      "stop" : 1561894598239,
+      "duration" : 739
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginP"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_pytest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "host",
+    "value" : "G50-75M"
+  }, {
+    "name" : "thread",
+    "value" : "13544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'password': 'python', 'user': '13200000000', 'check': '此账号没有经过授权，请联系管理员!'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "401bbdc9bbf34533.json",
+  "parameterValues" : [ "{'password': 'python', 'user': '13200000000', 'check': '此账号没有经过授权，请联系管理员!'}" ]
+}

@@ -1,0 +1,298 @@
+ Sat, 29 Jun 2019 14:33:03  INFO logger.py <module> [ line:25 ] abc
+ Sat, 29 Jun 2019 14:33:03  INFO test_invest.py setUpClass [ line:26 ] ======用例前置：初始化浏览器会话，登录前程贷系统======
+ Sat, 29 Jun 2019 14:33:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 14:33:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:33:16.882689,结束等待时间点：2019-06-29 14:33:16.971628，等待时长为：0:00:00.088939
+ Sat, 29 Jun 2019 14:33:16  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 14:33:16  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:33:17.278817,结束等待时间点：2019-06-29 14:33:17.353321，等待时长为：0:00:00.074504
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:33:17.497463,结束等待时间点：2019-06-29 14:33:17.562466，等待时长为：0:00:00.065003
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 14:33:17  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见
+ Sat, 29 Jun 2019 14:33:46  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:33:17.728234,结束等待时间点：2019-06-29 14:33:46.092444，等待时长为：0:00:28.364210
+ Sat, 29 Jun 2019 14:33:46  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见
+ Sat, 29 Jun 2019 14:33:46  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:33:46.093445,结束等待时间点：2019-06-29 14:33:46.152910，等待时长为：0:00:00.059465
+ Sat, 29 Jun 2019 14:33:46  INFO basepage.py get_element [ line:43 ] 查找 首页_抢投标按钮 中的元素 ('xpath', '//a[@class="btn btn-special"]')
+ Sat, 29 Jun 2019 14:33:46  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//a[@class="btn btn-special"]')
+ Sat, 29 Jun 2019 14:34:10  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:10.352299,结束等待时间点：2019-06-29 14:34:10.444273，等待时长为：0:00:00.091974
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:10.490826,结束等待时间点：2019-06-29 14:34:10.607061，等待时长为：0:00:00.116235
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:34:10  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('10',)
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:11.006624,结束等待时间点：2019-06-29 14:34:11.083639，等待时长为：0:00:00.077015
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:11.370950,结束等待时间点：2019-06-29 14:34:11.464927，等待时长为：0:00:00.093977
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:34:11  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 14:34:11  ERROR basepage.py get_element [ line:49 ] 查找元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 45, in get_element
+    ele = self.driver.find_element(*loc)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".layui-layer-content>div"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:34:12  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_失败弹出框文字_2019-06-29 14_34_11.png
+ Sat, 29 Jun 2019 14:34:12  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:34:36  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:36.226426,结束等待时间点：2019-06-29 14:34:36.300832，等待时长为：0:00:00.074406
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:36.348835,结束等待时间点：2019-06-29 14:34:36.423657，等待时长为：0:00:00.074822
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('123',)
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:36.646925,结束等待时间点：2019-06-29 14:34:36.709435，等待时长为：0:00:00.062510
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:36  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:34:36  ERROR basepage.py click_element [ line:62 ] 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:34:37  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标按钮_2019-06-29 14_34_36.png
+ Sat, 29 Jun 2019 14:34:37  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:34:38  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Sat, 29 Jun 2019 14:34:38  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:34:38.082967,结束等待时间点：2019-06-29 14:35:01.125131，等待时长为：0:00:23.042164
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:01.171132,结束等待时间点：2019-06-29 14:35:01.242671，等待时长为：0:00:00.071539
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('0',)
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:01.405577,结束等待时间点：2019-06-29 14:35:01.482222，等待时长为：0:00:00.076645
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:01.701314,结束等待时间点：2019-06-29 14:35:01.780329，等待时长为：0:00:00.079015
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:35:01  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 14:35:01  ERROR basepage.py get_element [ line:49 ] 查找元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 45, in get_element
+    ele = self.driver.find_element(*loc)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".layui-layer-content>div"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:35:02  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_失败弹出框文字_2019-06-29 14_35_01.png
+ Sat, 29 Jun 2019 14:35:02  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:35:26  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:26.011650,结束等待时间点：2019-06-29 14:35:26.087128，等待时长为：0:00:00.075478
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:26.132134,结束等待时间点：2019-06-29 14:35:26.206673，等待时长为：0:00:00.074539
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('-500',)
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:26.437411,结束等待时间点：2019-06-29 14:35:26.504418，等待时长为：0:00:00.067007
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:26.704559,结束等待时间点：2019-06-29 14:35:26.777563，等待时长为：0:00:00.073004
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:35:26  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 14:35:26  ERROR basepage.py get_element [ line:49 ] 查找元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 45, in get_element
+    ele = self.driver.find_element(*loc)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".layui-layer-content>div"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:35:27  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_失败弹出框文字_2019-06-29 14_35_26.png
+ Sat, 29 Jun 2019 14:35:27  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:51.453084,结束等待时间点：2019-06-29 14:35:51.526232，等待时长为：0:00:00.073148
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:51.573234,结束等待时间点：2019-06-29 14:35:51.645220，等待时长为：0:00:00.071986
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('100@',)
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:35:51.896700,结束等待时间点：2019-06-29 14:35:51.964950，等待时长为：0:00:00.068250
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:51  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:35:52  ERROR basepage.py click_element [ line:62 ] 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="btn btn-special height_style" disabled="">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:35:52  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标按钮_2019-06-29 14_35_52.png
+ Sat, 29 Jun 2019 14:35:52  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:16.191979,结束等待时间点：2019-06-29 14:36:16.290983，等待时长为：0:00:00.099004
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:16.339986,结束等待时间点：2019-06-29 14:36:16.411333，等待时长为：0:00:00.071347
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('一百元',)
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:16.644436,结束等待时间点：2019-06-29 14:36:16.725053，等待时长为：0:00:00.080617
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:16  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:16  ERROR basepage.py click_element [ line:62 ] 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:36:17  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标按钮_2019-06-29 14_36_16.png
+ Sat, 29 Jun 2019 14:36:17  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:40.716137,结束等待时间点：2019-06-29 14:36:40.798049，等待时长为：0:00:00.081912
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:40.845053,结束等待时间点：2019-06-29 14:36:40.920115，等待时长为：0:00:00.075062
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:36:40  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('10 0',)
+ Sat, 29 Jun 2019 14:36:41  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:36:41  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:36:41.183304,结束等待时间点：2019-06-29 14:36:41.249325，等待时长为：0:00:00.066021
+ Sat, 29 Jun 2019 14:36:41  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:41  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:36:41  ERROR basepage.py click_element [ line:62 ] 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="btn btn-special height_style" disabled="">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:36:42  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标按钮_2019-06-29 14_36_41.png
+ Sat, 29 Jun 2019 14:36:42  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:05.363855,结束等待时间点：2019-06-29 14:37:05.442228，等待时长为：0:00:00.078373
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:05.491231,结束等待时间点：2019-06-29 14:37:05.561667，等待时长为：0:00:00.070436
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('-1',)
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:05.759084,结束等待时间点：2019-06-29 14:37:05.837920，等待时长为：0:00:00.078836
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:05  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:06  ERROR basepage.py click_element [ line:62 ] 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)
+
+ Sat, 29 Jun 2019 14:37:06  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标按钮_2019-06-29 14_37_06.png
+ Sat, 29 Jun 2019 14:37:06  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:37:29  INFO test_invest.py test_invest_success [ line:72 ] ======投资用例：正常场景-投资成功
+ Sat, 29 Jun 2019 14:37:29  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:37:29  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:29.869845,结束等待时间点：2019-06-29 14:37:29.941856，等待时长为：0:00:00.072011
+ Sat, 29 Jun 2019 14:37:29  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:29  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('css selector', '.btn-special') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 14:37:29  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:29.990862,结束等待时间点：2019-06-29 14:37:30.058446，等待时长为：0:00:00.067584
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('100',)
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 14:37:30.288819,结束等待时间点：2019-06-29 14:37:30.360823，等待时长为：0:00:00.072004
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Sat, 29 Jun 2019 14:37:30  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Sat, 29 Jun 2019 14:38:00  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Sat, 29 Jun 2019 14:38:01  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/个人中心_获取用户剩余金额_2019-06-29 14_38_01.png
+ Sat, 29 Jun 2019 14:38:01  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 14:38:25  INFO test_invest.py tearDownClass [ line:45 ] ======用例后置类：关闭浏览器会话，清理环境======

@@ -1,0 +1,7 @@
+ERROR    root:basepage.py:37 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\WEB_UI\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "d:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message:

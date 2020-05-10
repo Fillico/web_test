@@ -1,0 +1,2 @@
+ Thu, 27 Jun 2019 16:50:30  INFO logger.py <module> [ line:25 ] abc
+ Thu, 27 Jun 2019 16:50:30  INFO test_invest.py setUpClass [ line:26 ] ======用例前置：初始化浏览器会话，登录前程贷系统======

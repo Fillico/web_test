@@ -1,0 +1,288 @@
+ Sat, 29 Jun 2019 18:03:49  INFO logger.py <module> [ line:25 ] abc
+ Sat, 29 Jun 2019 18:03:49  INFO test_invest.py setUpClass [ line:29 ] ======用例前置：初始化浏览器会话，登录前程贷系统======
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:03.120169,结束等待时间点：2019-06-29 18:04:03.217288，等待时长为：0:00:00.097119
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:03.586962,结束等待时间点：2019-06-29 18:04:03.681083，等待时长为：0:00:00.094121
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:04:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:04:04  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:03.975619,结束等待时间点：2019-06-29 18:04:04.055312，等待时长为：0:00:00.079693
+ Sat, 29 Jun 2019 18:04:04  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:04:04  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:04:04  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见
+ Sat, 29 Jun 2019 18:04:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:04.227291,结束等待时间点：2019-06-29 18:04:26.788611，等待时长为：0:00:22.561320
+ Sat, 29 Jun 2019 18:04:26  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见
+ Sat, 29 Jun 2019 18:04:26  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:26.789611,结束等待时间点：2019-06-29 18:04:26.851466，等待时长为：0:00:00.061855
+ Sat, 29 Jun 2019 18:04:26  INFO basepage.py get_element [ line:43 ] 查找 首页_抢投标按钮 中的元素 ('xpath', '//a[@class="btn btn-special"]')
+ Sat, 29 Jun 2019 18:04:26  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//a[@class="btn btn-special"]')
+ Sat, 29 Jun 2019 18:04:50  INFO test_invest.py test_invest_failed [ line:53 ] ======投资用例：异常场景-投资金额为非100的整数倍======
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:50.568886,结束等待时间点：2019-06-29 18:04:50.658894，等待时长为：0:00:00.090008
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:50.707897,结束等待时间点：2019-06-29 18:04:50.791898，等待时长为：0:00:00.084001
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:04:50  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(10,)
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:51.052943,结束等待时间点：2019-06-29 18:04:51.138088，等待时长为：0:00:00.085145
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:51.305096,结束等待时间点：2019-06-29 18:04:51.368100，等待时长为：0:00:00.063004
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:04:51  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.layui-layer') 可见
+ Sat, 29 Jun 2019 18:04:52  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:04:51.435102,结束等待时间点：2019-06-29 18:04:52.054247，等待时长为：0:00:00.619145
+ Sat, 29 Jun 2019 18:04:52  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 18:04:52  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.layui-layer-content>div') 的文件值为 投标金额必须为100的倍数
+ Sat, 29 Jun 2019 18:04:52  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:05:16  INFO test_invest.py test_invest_failed [ line:53 ] ======投资用例：异常场景-投资金额为非100的整数倍======
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:16.059686,结束等待时间点：2019-06-29 18:05:16.151691，等待时长为：0:00:00.092005
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:16.206693,结束等待时间点：2019-06-29 18:05:16.284697，等待时长为：0:00:00.078004
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(0,)
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:16.470707,结束等待时间点：2019-06-29 18:05:16.546740，等待时长为：0:00:00.076033
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:16.751754,结束等待时间点：2019-06-29 18:05:16.829758，等待时长为：0:00:00.078004
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:05:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.layui-layer') 可见
+ Sat, 29 Jun 2019 18:05:17  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:16.905921,结束等待时间点：2019-06-29 18:05:17.513368，等待时长为：0:00:00.607447
+ Sat, 29 Jun 2019 18:05:17  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 18:05:17  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.layui-layer-content>div') 的文件值为 请正确填写投标金额
+ Sat, 29 Jun 2019 18:05:17  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:05:41  INFO test_invest.py test_invest_failed [ line:53 ] ======投资用例：异常场景-投资金额为非100的整数倍======
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:41.333707,结束等待时间点：2019-06-29 18:05:41.418711，等待时长为：0:00:00.085004
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:41.468718,结束等待时间点：2019-06-29 18:05:41.541717，等待时长为：0:00:00.072999
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(-500,)
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:41.771731,结束等待时间点：2019-06-29 18:05:41.847734，等待时长为：0:00:00.076003
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:41  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:42.048743,结束等待时间点：2019-06-29 18:05:42.127747，等待时长为：0:00:00.079004
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.layui-layer') 可见
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:05:42.195750,结束等待时间点：2019-06-29 18:05:42.806993，等待时长为：0:00:00.611243
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py get_element [ line:43 ] 查找 标页面_失败弹出框文字 中的元素 ('css selector', '.layui-layer-content>div')
+ Sat, 29 Jun 2019 18:05:42  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.layui-layer-content>div') 的文件值为 请正确填写投标金额
+ Sat, 29 Jun 2019 18:05:42  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:06:06  INFO test_invest.py test_invest_failed_wrong_format [ line:65 ] ======投资用例：异常场景-投资金额为错误的格式等======
+ Sat, 29 Jun 2019 18:06:06  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:06:06  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:06.613299,结束等待时间点：2019-06-29 18:06:06.684136，等待时长为：0:00:00.070837
+ Sat, 29 Jun 2019 18:06:06  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:06:06  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('100@',)
+ Sat, 29 Jun 2019 18:06:06  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:06:07  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:06.923472,结束等待时间点：2019-06-29 18:06:07.018289，等待时长为：0:00:00.094817
+ Sat, 29 Jun 2019 18:06:07  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮上错误提示 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:06:07  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的文件值为 投标
+ Sat, 29 Jun 2019 18:06:07  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:06:31  INFO test_invest.py test_invest_failed_wrong_format [ line:65 ] ======投资用例：异常场景-投资金额为错误的格式等======
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:31.070537,结束等待时间点：2019-06-29 18:06:31.145393，等待时长为：0:00:00.074856
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(123,)
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:31.340879,结束等待时间点：2019-06-29 18:06:31.432791，等待时长为：0:00:00.091912
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮上错误提示 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:06:31  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的文件值为 请输入10的整数倍
+ Sat, 29 Jun 2019 18:06:31  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:06:55  INFO test_invest.py test_invest_failed_wrong_format [ line:65 ] ======投资用例：异常场景-投资金额为错误的格式等======
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:55.570551,结束等待时间点：2019-06-29 18:06:55.648551，等待时长为：0:00:00.078000
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('一百元',)
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:06:55.901831,结束等待时间点：2019-06-29 18:06:55.993648，等待时长为：0:00:00.091817
+ Sat, 29 Jun 2019 18:06:55  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮上错误提示 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:06:56  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的文件值为 请输入10的整数倍
+ Sat, 29 Jun 2019 18:06:56  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:07:19  INFO test_invest.py test_invest_failed_wrong_format [ line:65 ] ======投资用例：异常场景-投资金额为错误的格式等======
+ Sat, 29 Jun 2019 18:07:19  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:07:19  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:07:19.913511,结束等待时间点：2019-06-29 18:07:19.994535，等待时长为：0:00:00.081024
+ Sat, 29 Jun 2019 18:07:19  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:07:20  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：('10 0',)
+ Sat, 29 Jun 2019 18:07:20  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:07:20  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:07:20.233583,结束等待时间点：2019-06-29 18:07:20.325588，等待时长为：0:00:00.092005
+ Sat, 29 Jun 2019 18:07:20  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮上错误提示 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:07:20  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的文件值为 请输入10的整数倍
+ Sat, 29 Jun 2019 18:07:20  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:07:44  INFO test_invest.py test_invest_failed_wrong_format [ line:65 ] ======投资用例：异常场景-投资金额为错误的格式等======
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:07:44.156477,结束等待时间点：2019-06-29 18:07:44.232482，等待时长为：0:00:00.076005
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(-1,)
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:07:44.428526,结束等待时间点：2019-06-29 18:07:44.528530，等待时长为：0:00:00.100004
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮上错误提示 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:07:44  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的文件值为 请输入10的整数倍
+ Sat, 29 Jun 2019 18:07:44  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:08:08  INFO test_invest.py test_invest_success [ line:77 ] ======投资用例：正常场景-投资成功
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:08:08.544469,结束等待时间点：2019-06-29 18:08:08.625313，等待时长为：0:00:00.080844
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py get_element [ line:43 ] 查找 获取投标数额 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py get_element_attribute [ line:82 ] 获取元素 ('xpath', '//div[@class="pd-right"]//button') 的属性 data-amount 值为：None
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:08:08.682316,结束等待时间点：2019-06-29 18:08:08.755128，等待时长为：0:00:00.072812
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标输入框 中的元素 ('css selector', '.form-control')
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.form-control') 输入文本内容：(100,)
+ Sat, 29 Jun 2019 18:08:08  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="pd-right"]//button') 可见
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:08:08.982794,结束等待时间点：2019-06-29 18:08:09.057796，等待时长为：0:00:00.075002
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py get_element [ line:43 ] 查找 标页面_投标按钮 中的元素 ('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//div[@class="pd-right"]//button')
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="layui-layer-content"]') 可见
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:08:09.278327,结束等待时间点：2019-06-29 18:08:09.962327，等待时长为：0:00:00.684000
+ Sat, 29 Jun 2019 18:08:09  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 可见
+ Sat, 29 Jun 2019 18:08:10  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:08:09.963327,结束等待时间点：2019-06-29 18:08:10.076813，等待时长为：0:00:00.113486
+ Sat, 29 Jun 2019 18:08:10  INFO basepage.py get_element [ line:43 ] 查找 标页面_投资成功提示框_点击查看并激活 中的元素 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+ Sat, 29 Jun 2019 18:08:10  INFO basepage.py click_element [ line:58 ] 点击元素：('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]')
+ Sat, 29 Jun 2019 18:08:32  INFO test_invest.py tearDown [ line:42 ] ======每一个用例后置：刷新当前页面======
+ Sat, 29 Jun 2019 18:08:55  INFO test_invest.py tearDownClass [ line:48 ] ======用例后置类：关闭浏览器会话，清理环境======
+ Sat, 29 Jun 2019 18:09:10  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:10  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:10.677662,结束等待时间点：2019-06-29 18:09:10.761211，等待时长为：0:00:00.083549
+ Sat, 29 Jun 2019 18:09:10  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:10  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('',)
+ Sat, 29 Jun 2019 18:09:10  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:10.895842,结束等待时间点：2019-06-29 18:09:11.003712，等待时长为：0:00:00.107870
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:11.228449,结束等待时间点：2019-06-29 18:09:11.324485，等待时长为：0:00:00.096036
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:11  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入手机号
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:12.418370,结束等待时间点：2019-06-29 18:09:12.475367，等待时长为：0:00:00.056997
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:12.682379,结束等待时间点：2019-06-29 18:09:12.748382，等待时长为：0:00:00.066003
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('',)
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:12.861387,结束等待时间点：2019-06-29 18:09:12.931392，等待时长为：0:00:00.070005
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:12  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:13  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:13  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入密码
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:14.446466,结束等待时间点：2019-06-29 18:09:14.527719，等待时长为：0:00:00.081253
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('186847205531',)
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:14.863752,结束等待时间点：2019-06-29 18:09:14.947685，等待时长为：0:00:00.083933
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:14  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:15.151270,结束等待时间点：2019-06-29 18:09:15.229160，等待时长为：0:00:00.077890
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:15  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入正确的手机号
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:16.250782,结束等待时间点：2019-06-29 18:09:16.294629，等待时长为：0:00:00.043847
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('1868472055',)
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:16.477783,结束等待时间点：2019-06-29 18:09:16.533787，等待时长为：0:00:00.056004
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:16.722243,结束等待时间点：2019-06-29 18:09:16.776247，等待时长为：0:00:00.054004
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:16  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入正确的手机号
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:17.563956,结束等待时间点：2019-06-29 18:09:17.614959，等待时长为：0:00:00.051003
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('1868472 0553',)
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:17.791437,结束等待时间点：2019-06-29 18:09:17.854440，等待时长为：0:00:00.063003
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:17  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:18.042527,结束等待时间点：2019-06-29 18:09:18.115539，等待时长为：0:00:00.073012
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入正确的手机号
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:18.875234,结束等待时间点：2019-06-29 18:09:18.927306，等待时长为：0:00:00.052072
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:18  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('186847aa553',)
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:19.118592,结束等待时间点：2019-06-29 18:09:19.185331，等待时长为：0:00:00.066739
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:19.342041,结束等待时间点：2019-06-29 18:09:19.406762，等待时长为：0:00:00.064721
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py get_element [ line:43 ] 查找 登录页面_表单区域错误信息 中的元素 ('css selector', '.form-error-info')
+ Sat, 29 Jun 2019 18:09:19  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.form-error-info') 的文件值为 请输入正确的手机号
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:20.231210,结束等待时间点：2019-06-29 18:09:20.276322，等待时长为：0:00:00.045112
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('13200000000',)
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:20.521241,结束等待时间点：2019-06-29 18:09:20.576748，等待时长为：0:00:00.055507
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:20.735419,结束等待时间点：2019-06-29 18:09:20.808148，等待时长为：0:00:00.072729
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:20  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.layui-layer-content') 可见
+ Sat, 29 Jun 2019 18:09:21  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:20.954884,结束等待时间点：2019-06-29 18:09:21.538192，等待时长为：0:00:00.583308
+ Sat, 29 Jun 2019 18:09:21  INFO basepage.py get_element [ line:43 ] 查找 登录页面_页面中间的错误信息 中的元素 ('css selector', '.layui-layer-content')
+ Sat, 29 Jun 2019 18:09:21  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.layui-layer-content') 的文件值为 此账号没有经过授权，请联系管理员!
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:22.219876,结束等待时间点：2019-06-29 18:09:22.261006，等待时长为：0:00:00.041130
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:22.423068,结束等待时间点：2019-06-29 18:09:22.473796，等待时长为：0:00:00.050728
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('123456',)
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:22.603569,结束等待时间点：2019-06-29 18:09:22.651572，等待时长为：0:00:00.048003
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:22  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.layui-layer-content') 可见
+ Sat, 29 Jun 2019 18:09:23  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:22.765296,结束等待时间点：2019-06-29 18:09:23.360675，等待时长为：0:00:00.595379
+ Sat, 29 Jun 2019 18:09:23  INFO basepage.py get_element [ line:43 ] 查找 登录页面_页面中间的错误信息 中的元素 ('css selector', '.layui-layer-content')
+ Sat, 29 Jun 2019 18:09:23  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.layui-layer-content') 的文件值为 帐号或密码错误!
+ Sat, 29 Jun 2019 18:09:24  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Sat, 29 Jun 2019 18:09:24  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:24.618328,结束等待时间点：2019-06-29 18:09:24.687999，等待时长为：0:00:00.069671
+ Sat, 29 Jun 2019 18:09:24  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Sat, 29 Jun 2019 18:09:24  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:25.043816,结束等待时间点：2019-06-29 18:09:25.117076，等待时长为：0:00:00.073260
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:25.335331,结束等待时间点：2019-06-29 18:09:25.421226，等待时长为：0:00:00.085895
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('xpath', '//a[text()="关于我们"]') 可见
+ Sat, 29 Jun 2019 18:09:25  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-29 18:09:25.622322,结束等待时间点：2019-06-29 18:09:25.739750，等待时长为：0:00:00.117428
+ Sat, 29 Jun 2019 18:09:26  INFO basepage.py get_element [ line:43 ] 查找 首页_用户昵称 中的元素 ('xpath', '//a[@href="/Member/index.html"]')

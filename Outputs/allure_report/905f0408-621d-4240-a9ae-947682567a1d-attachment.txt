@@ -1,0 +1,15 @@
+ERROR    root:basepage.py:62 点击元素失败
+Traceback (most recent call last):
+  File "F:\LYX\WEB_UI\Common\basepage.py", line 60, in click_element
+    ele.click()
+  File "d:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "d:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "d:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "d:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled="" class="btn btn-special height_style">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class="pd-right">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)

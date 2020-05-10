@@ -1,0 +1,626 @@
+{
+  "d891a31da40c6df5546ba0132a19d595" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f483632b49b2237c",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/f483632b49b2237c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889480140,
+        "stop" : 1561889505265,
+        "duration" : 25125
+      }
+    } ]
+  },
+  "f61d6557bfc0b02df524cb2b87e69074" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30850ee82ffe8b4d",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/30850ee82ffe8b4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386842192,
+        "stop" : 1562386842680,
+        "duration" : 488
+      }
+    } ]
+  },
+  "79326c4768dce35914c33469f3f733fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "352e1acf0b358a0f",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/352e1acf0b358a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386914755,
+        "stop" : 1562386915199,
+        "duration" : 444
+      }
+    } ]
+  },
+  "c3a43c391af70c27d93a90f38682e8f7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a40240e7ede3687",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/3a40240e7ede3687",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889505347,
+        "stop" : 1561889531004,
+        "duration" : 25657
+      }
+    } ]
+  },
+  "4de02333fd275499480d05dbee234dc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbdf6d1da52200c2",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/cbdf6d1da52200c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387003539,
+        "stop" : 1562387004203,
+        "duration" : 664
+      }
+    } ]
+  },
+  "58eca4bc4f290070bd04020ace9987fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7335c183b29de47a",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/7335c183b29de47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889628288,
+        "stop" : 1561889629270,
+        "duration" : 982
+      }
+    } ]
+  },
+  "d1021337b075fdb88fea8a1fac58ed32" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fad4c08461c4cad",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/5fad4c08461c4cad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387014399,
+        "stop" : 1562387015659,
+        "duration" : 1260
+      }
+    } ]
+  },
+  "2bdfafd25e10c6f6a1d46eaaf1818663" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51fa6b53f96e4d29",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/51fa6b53f96e4d29",
+      "status" : "broken",
+      "statusDetails" : "TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'",
+      "time" : {
+        "start" : 1562386939955,
+        "stop" : 1562386965743,
+        "duration" : 25788
+      }
+    } ]
+  },
+  "620a92d0b653d0e77a88f28968ae4fdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea30d56b4d9c26bb",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/ea30d56b4d9c26bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386866850,
+        "stop" : 1562386867322,
+        "duration" : 472
+      }
+    } ]
+  },
+  "2ccd9b197d81af3dca9b411f49db3e45" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ee2002ee82888a0",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/8ee2002ee82888a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387007231,
+        "stop" : 1562387008291,
+        "duration" : 1060
+      }
+    } ]
+  },
+  "a4f4bcacb0b866c423fd2c320bcbdcff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6591d5faf2c4b19",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/6591d5faf2c4b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386890518,
+        "stop" : 1562386890998,
+        "duration" : 480
+      }
+    } ]
+  },
+  "670179219d2995273dad634e1e4db632" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d4ce3582448ddebf",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/d4ce3582448ddebf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889454788,
+        "stop" : 1561889480126,
+        "duration" : 25338
+      }
+    } ]
+  },
+  "2ee945e6a254127f6ede8ffae220c91d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ca21ef671cc2a8c",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/2ca21ef671cc2a8c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1561889629282,
+        "stop" : 1561889707633,
+        "duration" : 78351
+      }
+    } ]
+  },
+  "77ba6539cd4e13c520a005697640a438" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4fab8ec05dd0a481",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/4fab8ec05dd0a481",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889555343,
+        "stop" : 1561889579330,
+        "duration" : 23987
+      }
+    } ]
+  },
+  "80d9377c0bc951243a83d4fa54c0b331" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cb06da9adc247a54",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/cb06da9adc247a54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387005351,
+        "stop" : 1562387006299,
+        "duration" : 948
+      }
+    } ]
+  },
+  "76c64a1719229fef49b89afb298b8aad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89b2141d5c3af0e6",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/89b2141d5c3af0e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387043932,
+        "stop" : 1562387043932,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0d8469660c1ffd68b40003142b23c7ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ce40fc2dad8d386",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/4ce40fc2dad8d386",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889531016,
+        "stop" : 1561889555330,
+        "duration" : 24314
+      }
+    } ]
+  },
+  "ca7a06e79ea4916e8848608506b074be" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2bcfbde16eb95660",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/2bcfbde16eb95660",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: '请输入10的整数倍' != '投标'\n- 请输入10的整数倍\n+ 投标",
+      "time" : {
+        "start" : 1561889579343,
+        "stop" : 1561889603636,
+        "duration" : 24293
+      }
+    } ]
+  },
+  "8c297d3530a4b2fa8edc344d628138ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52a389d5c90d3692",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/52a389d5c90d3692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387009295,
+        "stop" : 1562387010259,
+        "duration" : 964
+      }
+    } ]
+  },
+  "0cd1a3fa99d0599dc61cd043dcb6fb74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d3fde7e9fe75e138",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/d3fde7e9fe75e138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387010303,
+        "stop" : 1562387012395,
+        "duration" : 2092
+      }
+    } ]
+  },
+  "25c76dad3e819966a4bc41638ca9a2c3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30905a0b50062912",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/30905a0b50062912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386791585,
+        "stop" : 1562386793137,
+        "duration" : 1552
+      }
+    } ]
+  },
+  "785f1aa4fb445f1b8c7173381a042ddc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7965e51a037d65d8",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/7965e51a037d65d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387018211,
+        "stop" : 1562387041396,
+        "duration" : 23185
+      }
+    } ]
+  },
+  "5361e8412695ca0441ae1b1f5e8813ab" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "acd17f31b603079b",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/acd17f31b603079b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387043920,
+        "stop" : 1562387043924,
+        "duration" : 4
+      }
+    } ]
+  },
+  "db41b1a355a03c0075c72827e7d9bf96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4f39d4e5024a85b",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/a4f39d4e5024a85b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387016191,
+        "stop" : 1562387017475,
+        "duration" : 1284
+      }
+    } ]
+  },
+  "3453c8fd141933f3de704390b9953484" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b0743785e156f47",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/5b0743785e156f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561890026807,
+        "stop" : 1561890026808,
+        "duration" : 1
+      }
+    } ]
+  },
+  "617a98f10662e15afd6aad3c797d6a21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efa2433a54dd930d",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/efa2433a54dd930d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled=\"\" class=\"btn btn-special height_style\">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class=\"pd-right\">...</div>\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)",
+      "time" : {
+        "start" : 1562386740583,
+        "stop" : 1562386741943,
+        "duration" : 1360
+      }
+    } ]
+  },
+  "7234c7dbfea0d6ba36428e6e44034955" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8097a9ec04b6babd",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/8097a9ec04b6babd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386679615,
+        "stop" : 1562386679619,
+        "duration" : 4
+      }
+    } ]
+  },
+  "a98a15d17d05a789b49965effce68229" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13d9cac7e1deaca7",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/13d9cac7e1deaca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386765706,
+        "stop" : 1562386767234,
+        "duration" : 1528
+      }
+    } ]
+  },
+  "e5bbe9de8ffe0d02d53cb197161bcdd8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac3b0f7e2991272f",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/ac3b0f7e2991272f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889604133,
+        "stop" : 1561889628276,
+        "duration" : 24143
+      }
+    } ]
+  },
+  "87799c42ee46fdbc65c60ffec04444f2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d994b99da45ac985",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/d994b99da45ac985",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562386818300,
+        "stop" : 1562386818828,
+        "duration" : 528
+      }
+    } ]
+  },
+  "930813980c1d67c94f4cedd1773e7594" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d9b18cc5fa6a1fc",
+      "reportUrl" : "http://localhost/jenkins/job/future_ui/4/allure/#testresult/6d9b18cc5fa6a1fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1562387013147,
+        "stop" : 1562387013851,
+        "duration" : 704
+      }
+    } ]
+  }
+}

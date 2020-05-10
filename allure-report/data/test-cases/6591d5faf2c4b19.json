@@ -1,0 +1,160 @@
+{
+  "uid" : "6591d5faf2c4b19",
+  "name" : "test_invest_failed_wrong_format[data3]",
+  "fullName" : "TestCases.test_invest_pytest.TestInvestPage#test_invest_failed_wrong_format[data3]",
+  "historyId" : "a4f4bcacb0b866c423fd2c320bcbdcff",
+  "time" : {
+    "start" : 1562386890518,
+    "stop" : 1562386890998,
+    "duration" : 480
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_web",
+    "time" : {
+      "start" : 1562386679627,
+      "stop" : 1562386740579,
+      "duration" : 60952
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1562386890518,
+      "stop" : 1562386890518,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1562386679579,
+      "stop" : 1562386679591,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "login_web::0",
+    "time" : {
+      "start" : 1562386988410,
+      "stop" : 1562386990895,
+      "duration" : 2485
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1562386891006,
+      "stop" : 1562386914731,
+      "duration" : 23725
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1562387043936,
+      "stop" : 1562387043936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "invest"
+  }, {
+    "name" : "suite",
+    "value" : "test_invest_pytest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestInvestPage"
+  }, {
+    "name" : "host",
+    "value" : "G50-75M"
+  }, {
+    "name" : "thread",
+    "value" : "17676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_invest_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'check': '请输入10的整数倍', 'invest_money': '10 0'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4fc5a43b1f91c374",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561894468192,
+        "stop" : 1561894468699,
+        "duration" : 507
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "invest" ]
+  },
+  "source" : "6591d5faf2c4b19.json",
+  "parameterValues" : [ "{'check': '请输入10的整数倍', 'invest_money': '10 0'}" ]
+}

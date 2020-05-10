@@ -1,0 +1,176 @@
+{
+  "uid" : "52a389d5c90d3692",
+  "name" : "test_login_0_failed_by_wrong_datas[data3]",
+  "fullName" : "TestCases.test_login_pytest.TestLoginP#test_login_0_failed_by_wrong_datas[data3]",
+  "historyId" : "8c297d3530a4b2fa8edc344d628138ad",
+  "time" : {
+    "start" : 1562387009295,
+    "stop" : 1562387010259,
+    "duration" : 964
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1562387009291,
+      "stop" : 1562387009291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1562386679579,
+      "stop" : 1562386679591,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url",
+    "time" : {
+      "start" : 1562386990907,
+      "stop" : 1562387003539,
+      "duration" : 12632
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1562387010267,
+      "stop" : 1562387010287,
+      "duration" : 20
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1562387043936,
+      "stop" : 1562387043936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "open_url::0",
+    "time" : {
+      "start" : 1562387041420,
+      "stop" : 1562387043904,
+      "duration" : 2484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_pytest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginP"
+  }, {
+    "name" : "host",
+    "value" : "G50-75M"
+  }, {
+    "name" : "thread",
+    "value" : "17676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'user': '1868472055', 'check': '请输入正确的手机号', 'password': 'python'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ee5955519591fbcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561894592019,
+        "stop" : 1561894592727,
+        "duration" : 708
+      }
+    }, {
+      "uid" : "f5a9157128066fed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889725734,
+        "stop" : 1561889726416,
+        "duration" : 682
+      }
+    }, {
+      "uid" : "e9789e344c366c4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561878681965,
+        "stop" : 1561878682818,
+        "duration" : 853
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "52a389d5c90d3692.json",
+  "parameterValues" : [ "{'user': '1868472055', 'check': '请输入正确的手机号', 'password': 'python'}" ]
+}

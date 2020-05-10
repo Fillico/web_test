@@ -1,0 +1,424 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_invest",
+      "children" : [ {
+        "name" : "test_invest_failed_1",
+        "uid" : "d4ce3582448ddebf",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889454788,
+          "stop" : 1561889480126,
+          "duration" : 25338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_2",
+        "uid" : "f483632b49b2237c",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889480140,
+          "stop" : 1561889505265,
+          "duration" : 25125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_3",
+        "uid" : "3a40240e7ede3687",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889505347,
+          "stop" : 1561889531004,
+          "duration" : 25657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_wrong_format_1",
+        "uid" : "4ce40fc2dad8d386",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889531016,
+          "stop" : 1561889555330,
+          "duration" : 24314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_wrong_format_2",
+        "uid" : "4fab8ec05dd0a481",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889555343,
+          "stop" : 1561889579330,
+          "duration" : 23987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_wrong_format_3",
+        "uid" : "2bcfbde16eb95660",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1561889579343,
+          "stop" : 1561889603636,
+          "duration" : 24293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_wrong_format_4",
+        "uid" : "ac3b0f7e2991272f",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889604133,
+          "stop" : 1561889628276,
+          "duration" : 24143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed_wrong_format_5",
+        "uid" : "7335c183b29de47a",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561889628288,
+          "stop" : 1561889629270,
+          "duration" : 982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_success",
+        "uid" : "2ca21ef671cc2a8c",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "broken",
+        "time" : {
+          "start" : 1561889629282,
+          "stop" : 1561889707633,
+          "duration" : 78351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_demo",
+        "uid" : "5b0743785e156f47",
+        "parentUid" : "2d9f888c21d88d6ce5226a5dfd136b90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1561890026807,
+          "stop" : 1561890026808,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d9f888c21d88d6ce5226a5dfd136b90"
+    }, {
+      "name" : "test_invest_pytest",
+      "children" : [ {
+        "name" : "test_demo",
+        "uid" : "8097a9ec04b6babd",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386679615,
+          "stop" : 1562386679619,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_invest_failed[data0]",
+        "uid" : "efa2433a54dd930d",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562386740583,
+          "stop" : 1562386741943,
+          "duration" : 1360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '投标金额必须为100的倍数', 'invest_money': 10}" ]
+      }, {
+        "name" : "test_invest_failed[data1]",
+        "uid" : "13d9cac7e1deaca7",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386765706,
+          "stop" : 1562386767234,
+          "duration" : 1528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请正确填写投标金额', 'invest_money': 0}" ]
+      }, {
+        "name" : "test_invest_failed[data2]",
+        "uid" : "30905a0b50062912",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386791585,
+          "stop" : 1562386793137,
+          "duration" : 1552
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请正确填写投标金额', 'invest_money': -500}" ]
+      }, {
+        "name" : "test_invest_failed_wrong_format[data0]",
+        "uid" : "d994b99da45ac985",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386818300,
+          "stop" : 1562386818828,
+          "duration" : 528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请输入10的整数倍', 'invest_money': '100@'}" ]
+      }, {
+        "name" : "test_invest_failed_wrong_format[data1]",
+        "uid" : "30850ee82ffe8b4d",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386842192,
+          "stop" : 1562386842680,
+          "duration" : 488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请输入10的整数倍', 'invest_money': 123}" ]
+      }, {
+        "name" : "test_invest_failed_wrong_format[data2]",
+        "uid" : "ea30d56b4d9c26bb",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386866850,
+          "stop" : 1562386867322,
+          "duration" : 472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请输入10的整数倍', 'invest_money': '一百元'}" ]
+      }, {
+        "name" : "test_invest_failed_wrong_format[data3]",
+        "uid" : "6591d5faf2c4b19",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386890518,
+          "stop" : 1562386890998,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请输入10的整数倍', 'invest_money': '10 0'}" ]
+      }, {
+        "name" : "test_invest_failed_wrong_format[data4]",
+        "uid" : "352e1acf0b358a0f",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562386914755,
+          "stop" : 1562386915199,
+          "duration" : 444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '请输入10的整数倍', 'invest_money': -1}" ]
+      }, {
+        "name" : "test_invest_success",
+        "uid" : "51fa6b53f96e4d29",
+        "parentUid" : "f139ca31a52bfd224b7008f7924c5b2e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562386939955,
+          "stop" : 1562386965743,
+          "duration" : 25788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f139ca31a52bfd224b7008f7924c5b2e"
+    }, {
+      "name" : "test_login_pytest",
+      "children" : [ {
+        "name" : "test_login_0_failed_by_wrong_datas[data0]",
+        "uid" : "cbdf6d1da52200c2",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387003539,
+          "stop" : 1562387004203,
+          "duration" : 664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '', 'check': '请输入手机号', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_0_failed_by_wrong_datas[data1]",
+        "uid" : "cb06da9adc247a54",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387005351,
+          "stop" : 1562387006299,
+          "duration" : 948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '18684720553', 'check': '请输入密码', 'password': ''}" ]
+      }, {
+        "name" : "test_login_0_failed_by_wrong_datas[data2]",
+        "uid" : "8ee2002ee82888a0",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387007231,
+          "stop" : 1562387008291,
+          "duration" : 1060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '186847205531', 'check': '请输入正确的手机号', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_0_failed_by_wrong_datas[data3]",
+        "uid" : "52a389d5c90d3692",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387009295,
+          "stop" : 1562387010259,
+          "duration" : 964
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '1868472055', 'check': '请输入正确的手机号', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_0_failed_by_wrong_datas[data4]",
+        "uid" : "d3fde7e9fe75e138",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387010303,
+          "stop" : 1562387012395,
+          "duration" : 2092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '1868472 0553', 'check': '请输入正确的手机号', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_0_failed_by_wrong_datas[data5]",
+        "uid" : "6d9b18cc5fa6a1fc",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387013147,
+          "stop" : 1562387013851,
+          "duration" : 704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '186847aa553', 'check': '请输入正确的手机号', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_1_failed_by_fail_datas[data0]",
+        "uid" : "5fad4c08461c4cad",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387014399,
+          "stop" : 1562387015659,
+          "duration" : 1260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '13200000000', 'check': '此账号没有经过授权，请联系管理员!', 'password': 'python'}" ]
+      }, {
+        "name" : "test_login_1_failed_by_fail_datas[data1]",
+        "uid" : "a4f39d4e5024a85b",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387016191,
+          "stop" : 1562387017475,
+          "duration" : 1284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'user': '18684720553', 'check': '帐号或密码错误!', 'password': '123456'}" ]
+      }, {
+        "name" : "test_login_success",
+        "uid" : "7965e51a037d65d8",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387018211,
+          "stop" : 1562387041396,
+          "duration" : 23185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add",
+        "uid" : "acd17f31b603079b",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387043920,
+          "stop" : 1562387043924,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_demo",
+        "uid" : "89b2141d5c3af0e6",
+        "parentUid" : "42a0509932badfe90417739beb059926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1562387043932,
+          "stop" : 1562387043932,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42a0509932badfe90417739beb059926"
+    } ],
+    "uid" : "1dd5dae00c58193b69825e57e00d160e"
+  } ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "89b2141d5c3af0e6",
+  "name" : "test_demo",
+  "fullName" : "TestCases.test_login_pytest.TestTT#test_demo",
+  "historyId" : "76c64a1719229fef49b89afb298b8aad",
+  "time" : {
+    "start" : 1562387043932,
+    "stop" : 1562387043932,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "session_action",
+    "time" : {
+      "start" : 1562386679579,
+      "stop" : 1562386679591,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "session_action::0",
+    "time" : {
+      "start" : 1562387043936,
+      "stop" : 1562387043936,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "demo"
+  }, {
+    "name" : "suite",
+    "value" : "test_login_pytest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTT"
+  }, {
+    "name" : "host",
+    "value" : "G50-75M"
+  }, {
+    "name" : "thread",
+    "value" : "17676-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login_pytest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7cfa96a4dc72627",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561894647746,
+        "stop" : 1561894647746,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5080d7853611ba21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561889759763,
+        "stop" : 1561889759764,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c2056df2de727ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561880186996,
+        "stop" : 1561880186998,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "demo" ]
+  },
+  "source" : "89b2141d5c3af0e6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+ Thu, 27 Jun 2019 17:14:38  INFO logger.py <module> [ line:25 ] abc
+ Thu, 27 Jun 2019 17:14:38  INFO test_invest.py setUpClass [ line:26 ] ======用例前置：初始化浏览器会话，登录前程贷系统======
+ Thu, 27 Jun 2019 17:14:46  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Thu, 27 Jun 2019 17:14:47  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 17:14:46.946987,结束等待时间点：2019-06-27 17:14:47.018733，等待时长为：0:00:00.071746
+ Thu, 27 Jun 2019 17:14:47  INFO basepage.py get_element [ line:43 ] 查找 首页_抢投标按钮 中的元素 ('css selector', '.btn-special')
+ Thu, 27 Jun 2019 17:14:47  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Thu, 27 Jun 2019 17:14:47  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:15:09  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:15:32  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:15:54  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:16:16  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:16:38  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:17:01  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:17:43  INFO test_invest.py tearDown [ line:38 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 17:18:06  INFO test_invest.py tearDownClass [ line:44 ] ======用例后置类：关闭浏览器会话，清理互不干涉======

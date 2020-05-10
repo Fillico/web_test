@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: '请输入10的整数倍' != '投标'\n- 请输入10的整数倍\n+ 投标",
+      "children" : [ {
+        "name" : "test_invest_failed_wrong_format_3",
+        "uid" : "2bcfbde16eb95660",
+        "parentUid" : "7e5acc7ee379012ebf6793fa8690c48e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1561889579343,
+          "stop" : 1561889603636,
+          "duration" : 24293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e5acc7ee379012ebf6793fa8690c48e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_invest_success",
+        "uid" : "2ca21ef671cc2a8c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1561889629282,
+          "stop" : 1561889707633,
+          "duration" : 78351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button disabled=\"\" class=\"btn btn-special height_style\">...</button> is not clickable at point (1138, 348). Other element would receive the click: <div class=\"pd-right\">...</div>\n  (Session info: chrome=75.0.3770.100)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64)",
+      "children" : [ {
+        "name" : "test_invest_failed[data0]",
+        "uid" : "efa2433a54dd930d",
+        "parentUid" : "44bea523b777e8fd6ce4c335d3dff00c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562386740583,
+          "stop" : 1562386741943,
+          "duration" : 1360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'check': '投标金额必须为100的倍数', 'invest_money': 10}" ]
+      } ],
+      "uid" : "44bea523b777e8fd6ce4c335d3dff00c"
+    }, {
+      "name" : "TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'",
+      "children" : [ {
+        "name" : "test_invest_success",
+        "uid" : "51fa6b53f96e4d29",
+        "parentUid" : "02bda7d6fd611943e8ed913d1edefc85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1562386939955,
+          "stop" : 1562386965743,
+          "duration" : 25788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02bda7d6fd611943e8ed913d1edefc85"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

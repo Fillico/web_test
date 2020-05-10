@@ -1,0 +1,159 @@
+ Thu, 27 Jun 2019 20:38:55  INFO logger.py <module> [ line:25 ] abc
+ Thu, 27 Jun 2019 20:38:55  INFO test_invest.py setUpClass [ line:26 ] ======用例前置：初始化浏览器会话，登录前程贷系统======
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.username') 可见
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:39:03.677590,结束等待时间点：2019-06-27 20:39:03.729670，等待时长为：0:00:00.052080
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py get_element [ line:43 ] 查找 登录页面_用户名输入框 中的元素 ('css selector', '.username')
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py input_text [ line:69 ] 给元素 ('css selector', '.username') 输入文本内容：('18684720553',)
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('name', 'password') 可见
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:39:03.922465,结束等待时间点：2019-06-27 20:39:03.980293，等待时长为：0:00:00.057828
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py get_element [ line:43 ] 查找 登录页面_密码输入框 中的元素 ('name', 'password')
+ Thu, 27 Jun 2019 20:39:03  INFO basepage.py input_text [ line:69 ] 给元素 ('name', 'password') 输入文本内容：('python',)
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('tag name', 'button') 可见
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:39:04.121316,结束等待时间点：2019-06-27 20:39:04.184319，等待时长为：0:00:00.063003
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py get_element [ line:43 ] 查找 登录页面_登录按钮 中的元素 ('tag name', 'button')
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py click_element [ line:58 ] 点击元素：('tag name', 'button')
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.btn-special') 可见
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:39:04.307043,结束等待时间点：2019-06-27 20:39:04.358743，等待时长为：0:00:00.051700
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py get_element [ line:43 ] 查找 首页_抢投标按钮 中的元素 ('css selector', '.btn-special')
+ Thu, 27 Jun 2019 20:39:04  INFO basepage.py click_element [ line:58 ] 点击元素：('css selector', '.btn-special')
+ Thu, 27 Jun 2019 20:39:04  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Thu, 27 Jun 2019 20:39:48  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:39:48  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:39:48.465627,结束等待时间点：2019-06-27 20:39:48.549775，等待时长为：0:00:00.084148
+ Thu, 27 Jun 2019 20:39:48  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:39:48  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:39:48  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:40:18  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:40:19  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_40_18.png
+ Thu, 27 Jun 2019 20:40:19  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:40:41  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Thu, 27 Jun 2019 20:41:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:41:03  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:41:03.663708,结束等待时间点：2019-06-27 20:41:03.753310，等待时长为：0:00:00.089602
+ Thu, 27 Jun 2019 20:41:03  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:41:03  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:41:03  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:41:33  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:41:34  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_41_33.png
+ Thu, 27 Jun 2019 20:41:34  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:42:07  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Thu, 27 Jun 2019 20:42:29  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:42:29  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:42:29.090147,结束等待时间点：2019-06-27 20:42:29.192645，等待时长为：0:00:00.102498
+ Thu, 27 Jun 2019 20:42:29  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:42:29  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:42:29  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:42:59  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:42:59  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_42_59.png
+ Thu, 27 Jun 2019 20:42:59  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:43:22  INFO test_invest.py test_invest_failed [ line:50 ] ======投资用例：异常场景-投资金额为非100的整数倍、错误的格式等======
+ Thu, 27 Jun 2019 20:43:44  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:43:44  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:43:44.150765,结束等待时间点：2019-06-27 20:43:44.231931，等待时长为：0:00:00.081166
+ Thu, 27 Jun 2019 20:43:44  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:43:44  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:43:44  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:44:14  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:44:15  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_44_14.png
+ Thu, 27 Jun 2019 20:44:15  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:44:59  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:44:59  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:44:59.557726,结束等待时间点：2019-06-27 20:44:59.645401，等待时长为：0:00:00.087675
+ Thu, 27 Jun 2019 20:44:59  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:44:59  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:44:59  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:45:30  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:45:30  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_45_30.png
+ Thu, 27 Jun 2019 20:45:30  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:46:15  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:46:15  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:46:15.144075,结束等待时间点：2019-06-27 20:46:15.226157，等待时长为：0:00:00.082082
+ Thu, 27 Jun 2019 20:46:15  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:46:15  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:46:15  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:46:45  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:46:46  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_46_45.png
+ Thu, 27 Jun 2019 20:46:46  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:47:30  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:47:30  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:47:30.182427,结束等待时间点：2019-06-27 20:47:30.257893，等待时长为：0:00:00.075466
+ Thu, 27 Jun 2019 20:47:30  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:47:30  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:47:30  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:48:00  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:48:01  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_48_00.png
+ Thu, 27 Jun 2019 20:48:01  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:48:46  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:48:46  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:48:46.497064,结束等待时间点：2019-06-27 20:48:46.600227，等待时长为：0:00:00.103163
+ Thu, 27 Jun 2019 20:48:46  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:48:46  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:48:46  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:49:16  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:49:17  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_49_16.png
+ Thu, 27 Jun 2019 20:49:17  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:49:40  INFO test_invest.py test_invest_success [ line:69 ] ======投资用例：正常场景-投资成功
+ Thu, 27 Jun 2019 20:50:02  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.color_sub') 可见
+ Thu, 27 Jun 2019 20:50:02  INFO basepage.py wait_eleVisible [ line:34 ] 开始等待时间点：2019-06-27 20:50:02.091399,结束等待时间点：2019-06-27 20:50:02.174974，等待时长为：0:00:00.083575
+ Thu, 27 Jun 2019 20:50:02  INFO basepage.py get_element [ line:43 ] 查找 个人中心_获取用户剩余金额 中的元素 ('css selector', '.color_sub')
+ Thu, 27 Jun 2019 20:50:02  INFO basepage.py get_element_text [ line:93 ] 获取元素 ('css selector', '.color_sub') 的文件值为 458902.85元
+ Thu, 27 Jun 2019 20:50:02  INFO basepage.py wait_eleVisible [ line:27 ] 等待元素 ('css selector', '.form-control') 可见
+ Thu, 27 Jun 2019 20:50:32  ERROR basepage.py wait_eleVisible [ line:37 ] 等待元素可见失败
+Traceback (most recent call last):
+  File "F:\LYX\Web_Practice_2\web_login\Common\basepage.py", line 31, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequency).until(EC.visibility_of_element_located(loc))
+  File "D:\_0_0_lyx_ceshi\python35\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+ Thu, 27 Jun 2019 20:50:32  INFO basepage.py save_web_screenshot [ line:109 ] 网页截图成功。图片存储在:F:\LYX\Web_Practice_2\web_login\Outputs\screenshots/标页面_投标输入框_2019-06-27 20_50_32.png
+ Thu, 27 Jun 2019 20:50:32  INFO test_invest.py tearDown [ line:39 ] ======每一个用例后置：刷新当前页面======
+ Thu, 27 Jun 2019 20:50:55  INFO test_invest.py tearDownClass [ line:45 ] ======用例后置类：关闭浏览器会话，清理环境======
